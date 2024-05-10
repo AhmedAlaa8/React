@@ -1,16 +1,11 @@
 import Image from "next/image";
-
-function Pub() {
-  return (
-    <div>hi</div>
-  )
-}
+import Pub from "@/compo/pop";
 
 function X() {
   return (
     <>
-      <Pub />
-      <div>5</div>
+      <Pub text="hikiik" />
+      <div>1</div>
     </>
   )
 }
@@ -20,7 +15,7 @@ function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
 
-      <Pub />
+      <Pub text="hikiik" />
       <p>ahmed</p>
       <X />
 
